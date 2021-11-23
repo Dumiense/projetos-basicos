@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculadora web</h1>
+    <section>
+    <div id="view" class="view"></div>
+    <div id="tecl1" class="t1">
+      <input type="button" value="=" class="bot" onclick="part2()" />
+      <input type="button" value="c" class="bot" onclick="clean()" />
+      </div>
+    <div id="tecl2" class="t2"> 
+      <input type="button" value="1" class="bot" onclick="val1(1)" />
+      <input type="button" value="2" class="bot" onclick="val1(2)" />
+      <input type="button" value="3" class="bot" onclick="val1(3)" />
+    </div>
+      
+    <div id="tecl3">
+      <input type="button" value="4" class="bot" onclick="val1(4)" />
+      <input type="button" value="5" class="bot" onclick="val1(5)" />
+      <input type="button" value="6" class="bot" onclick="val1(6)" />
+    </div>
+    <div id="tecl4">
+      <input type="button" value="7" class="bot" onclick="val1(7)" />
+      <input type="button" value="8" class="bot" onclick="val1(8)" />
+      <input type="button" value="9" class="bot" onclick="val1(9)" />
+    </div>
+      <input type="button" value="+" class="bot" onclick="part1(1)" />  
+      <input type="button" value="0" class="bot" onclick="val1(0)" />
+      <input type="button" value="-" class="bot" onclick="part1(2)" />
+
+    <div id="tecl5">  
+      
+      <input type="button" value="x" class="bot" onclick="part1(3)" />
+      <input type="button" value="/" class="bot" onclick="part1(4)" />
+    </div>
+      
+    </div>
+  </section>
+    <script src="script.js"></script>
+    <footer>made by: Mateus Dumiense</footer>
+  </body>
+</html>

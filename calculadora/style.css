@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(158, 54, 206);
+  font: normal 15pt Arial;
+}
+
+section {
+  background: rgb(48, 48, 40);
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(71, 69, 69);
+  align-items: baseline;
+}
+
+.bot {
+  background-color: rgb(78, 80, 79);
+  box-shadow: 2px 2px 4px;
+  width: 50px;
+  height: 30px;
+  margin: 3px;
+}
+
+.view {
+  background-color: beige;
+  width: 200px;
+  height: 60px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
