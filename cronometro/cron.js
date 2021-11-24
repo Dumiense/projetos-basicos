@@ -3,8 +3,9 @@
 var hr = 0
 var min = 0
 var sec = 0
+var mil = 0
 
-var tempo = 1000
+var tempo = 10
 var cron
 
 function start() {
@@ -19,11 +20,18 @@ function stop() {
   hr = 0
   min = 0
   sec = 0
+  mil = 0
   document.getElementById('counter').innerText = '00:00:00'
+  document.querySelector('#marcs').innerHTML = ''
 }
 
 function timer() {
-  sec++
+  mil++
+  if (mil == 100) {
+    mil = 0
+    sec++
+  }
+
   if (sec == 60) {
     sec = 0
     min++
@@ -38,6 +46,19 @@ function timer() {
     ':' +
     (min < 10 ? '0' + min : min) +
     ':' +
-    (sec < 10 ? '0' + sec : sec)
+    (sec < 10 ? '0' + sec : sec) +
+    ':' +
+    (mil < 10 ? '0' + mil : mil)
   document.getElementById('counter').innerHTML = format
+}
+function marcar() {
+  var n = document.querySelector('#counter').innerHTML
+
+  var parag = document.createElement('P')
+  var t = document.createTextNode(n)
+  parag.appendChild(t)
+  var m = document.getElementById('marcs').appendChild(parag)
+
+  /*m.innerHTML += n
+  console.log(n)*/
 }

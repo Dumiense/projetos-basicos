@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="cron.css" />
   </head>
-  <style src="cron.css"></style>
+
   <body>
     <section>
-      <div class="view"><h1 id="counter">00:00:00</h1></div>
-      <div>
-        <input type="button" value="start" onclick="start()" />
-        <input type="button" value="pause" onclick="pause()" />
-        <input type="button" value="stop" onclick="stop()" />
+      <div class="view">
+        <h1 id="counter"><p>00:00:00</p></h1>
       </div>
+      <div>
+        <input type="button" id="btn1" value="start" onclick="start()" />
+        <input type="button" id="btn2" value="pause" onclick="pause()" />
+        <input type="button" id="btn3" value="restart" onclick="stop()" />
+        <br />
+        <input type="button" id="btn4" value="marcar" onclick="marcar()" />
+      </div>
+      <div id="marcs"></div>
     </section>
     <script src="cron.js"></script>
   </body>

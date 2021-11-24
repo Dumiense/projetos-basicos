@@ -1,7 +1,38 @@
 body {
-  background-color: burlywood;
+  background-color: rgb(135, 222, 147);
 }
 
 section {
-  background: rgb(151, 53, 17);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+  width: 450px;
+}
+
+#btn1 {
+  background-color: green;
+  width: 70px;
+  border-radius: 5px;
+  box-shadow: rgb(255, 255, 255);
+}
+
+#btn2 {
+  background-color: yellow;
+  width: 70px;
+  border-radius: 5px;
+}
+
+#btn3 {
+  background-color: red;
+  width: 70px;
+  border-radius: 5px;
+}
+
+#btn4 {
+  background-color: lightblue;
+  width: 70px;
+  border-radius: 5px;
 }
