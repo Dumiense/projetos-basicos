@@ -1,0 +1,75 @@
+body {
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: auto;
+  width: 585px;
+  height: 300px;
+  background-color: aquamarine;
+  background-image: url(/drum-img.jpg);
+  align-items: baseline;
+  display: inline-block;
+}
+
+#e {
+  width: 25px;
+  height: 25px;
+}
+
+#r {
+  width: 25px;
+  height: 25px;
+}
+
+#f {
+  width: 25px;
+  height: 25px;
+}
+
+#g {
+  width: 25px;
+  height: 25px;
+}
+
+#h {
+  width: 25px;
+  height: 25px;
+}
+
+#v {
+  width: 25px;
+  height: 25px;
+}
+
+#b {
+  width: 25px;
+  height: 25px;
+}
+
+#j {
+  width: 25px;
+  height: 25px;
+}
+
+#i {
+  width: 25px;
+  height: 25px;
+}
+
+#ki {
+  width: 100px;
+  right: 50px;
+}
+
+#k {
+  width: 25px;
+  height: 25px;
+  margin-right: 100px;
+}
+
+section button {
+  color: blue;
+}
